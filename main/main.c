@@ -1,14 +1,9 @@
 // vim: noet ts=4 sw=4
-#include "freertos/FreeRTOS.h"
 #include "esp_wifi.h"
-#include "esp_wifi_internal.h"
-#include "lwip/err.h"
-#include "esp_system.h"
 #include "esp_event.h"
 #include "esp_event_loop.h"
 #include "esp_wifi_types.h"
 #include "nvs_flash.h"
-#include "driver/gpio.h"
 #include "string.h"
 
 typedef struct  __attribute__((__packed__)) {
